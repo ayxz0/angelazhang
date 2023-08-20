@@ -22,8 +22,8 @@ export function Introduction() {
                     </div>
                     
                 </div>
+
             </div>
-            
         </>
     )
 } 
