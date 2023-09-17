@@ -1,17 +1,12 @@
-import { JsxAttribute } from "typescript"
-
-export function Card(children: any) {
+export const Card = ( { children, title, subtitle } : { children?: React.ReactNode, title?: string, subtitle?: string } ) =>{
     return (
-        <div className="border border-white text-white p-2">
-            {children}
-        </div>
-    )
-}
-
-export function CardContent(children: any) {
-    return(
-        <div>
-            {children}
-        </div>
+        <>
+            <div className="text-white my-10 p-7 w-3/12 text-white border border-solid border-white rounded-sm">
+                <div className="mb-1 uppercase text-slate-400"> {subtitle} </div>
+                <div className="mb-5 font-bold text-2xl"> {title} </div>
+                <div className="text-lg"> {children} </div>
+                
+            </div>
+        </>
     )
 }

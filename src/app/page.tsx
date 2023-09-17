@@ -1,6 +1,5 @@
-import { Card } from "@/components/Card";
 import { Introduction } from "@/components/Introduction";
-import { Skill } from "@/components/Skill";
+import { Card } from "@/components/Card";
 
 export default function Home() {
     return (
@@ -8,8 +7,8 @@ export default function Home() {
             <div className="z-10 max-w-5xl w-full justify-between font-mono text-sm lg:flex">
                 <Introduction />    
             </div>
-            <div className="justify-between font-mono text-sm lg:flex">
-                <Skill title="Languages" children={
+            <div className="w-9/12 justify-between items-stretch font-mono text-sm lg:flex">
+                <Card title="Languages" children={
                     <ul>
                         <li>Java</li>
                         <li>Python</li>
@@ -19,7 +18,7 @@ export default function Home() {
                         
                     </ul>
                 }/> 
-                <Skill title="Libraries" children={
+                <Card title="Libraries" children={
                     <ul>
                         <li>React.js</li>
                         <li>Node.js</li>
@@ -29,7 +28,7 @@ export default function Home() {
                         
                     </ul>
                 }/> 
-                <Skill title="Tools" children={
+                <Card title="Tools" children={
                     <ul>
                         <li>Git</li>
                         <li>Azure</li>
@@ -39,6 +38,18 @@ export default function Home() {
                         
                     </ul>
                 }/> 
+            </div>
+            <div className="w-9/12 text-white justify-center font-mono text-sm lg:flex">
+                <div className="text-3xl font=bold">
+                    <p>Projects</p>
+                </div>
+                
+            </div>
+                <div className="w-full">
+                    <Card title="EcoMap" subtitle="web development" children={
+                            <p>Ecomap is super cool</p>
+                    }/>
+                
             </div>
         </main>
     )

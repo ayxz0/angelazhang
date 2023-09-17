@@ -1,7 +1,7 @@
 export const Introduction= () => {
     return (
         <>
-            <div className="w-full space-y-10">
+            <div className="w-full justify-content space-y-10">
 
                 <div className="items-center flex row m-5 space-x-4 h-11">
                     <div className="text-5xl text-white font-semibold">Angela Zhang</div>
@@ -18,7 +18,7 @@ export const Introduction= () => {
                             <p>Class of 2024 @ Lincoln High School</p>
                             <p className="pb-2">Portland, Oregon</p>
                         </div>
-                        <hr className="mt-2"></hr>
+                        <hr className="mt-3"></hr>
                     </div>
                     
                 </div>
