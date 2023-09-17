@@ -2,6 +2,15 @@ export const Introduction= () => {
     return (
         <>
             <div className="w-full justify-content space-y-10">
+                <div className="items-center flex row m-5 space-x-4 h-11">
+                    <div className="name text-7xl text-white italic font-bold uppercase">
+                        <span>Angela</span><span className="last">Zhang</span>
+                    </div>
+                </div>
+                        
+            </div>
+            
+            {/* <div className="w-full justify-content space-y-10">
 
                 <div className="items-center flex row m-5 space-x-4 h-11">
                     <div className="text-5xl text-white font-semibold">Angela Zhang</div>
@@ -23,7 +32,7 @@ export const Introduction= () => {
                     
                 </div>
 
-            </div>
+            </div> */}
         </>
     )
 } 
