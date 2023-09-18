@@ -12,6 +12,9 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
                         subtitle={project.subtitle}
                         date={project.date}
                         techstack={project.techStack}
+                        about={project.about}
+                        github={project.github}
+                        link={project.link}
                     />
                 </div>
             )}

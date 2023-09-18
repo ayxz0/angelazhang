@@ -5,8 +5,8 @@
         "date": "August 2023",
         "about": "super cool and awesome project B)",
         "techStack": ["JavaScript", "Tailwind"],
-        "github": "",
-        "link": ""
+        "github": "https://github.com/Tabadia/EcoMap",
+        "link": "https://www.ecomap.wiki/"
     }, 
     {
         "title": "Bobo Tea House",
@@ -15,16 +15,16 @@
         "about": "",
         "techStack": ["Bootstrap", "SendGrid", "Glitch"],
         "github": "",
-        "link": ""
+        "link": "https://ayxz0.github.io/fbla/home"
     }, 
     {
         "title": "Carbon Calculator",
         "subtitle": "Hackathon",
         "date": "March 2022",
-        "about": "",
+        "about": "A website that calculates your carbon footprint",
         "techStack": ["Tailwind"],
-        "github": "",
-        "link": ""
+        "github": "https://github.com/Tabadia/CarbonCalculator",
+        "link": "https://tabadia.github.io/CarbonCalculator/public/"
     }, 
     {
         "title": "Mission:Citizen",
@@ -33,7 +33,7 @@
         "about": "",
         "techStack": ["SquareSpace"],
         "github": "",
-        "link": ""
+        "link": "https://missioncitizen.org/"
     }, 
     {
         "title": "M:C Online",
@@ -41,8 +41,8 @@
         "date": "2023",
         "about": "",
         "techStack": ["Firebase"],
-        "github": "",
-        "link": ""
+        "github": "https://github.com/terreng/Mission-Citizen-Online-Prep",
+        "link": "https://online.missioncitizen.org/"
     }, 
     {
         "title": "Connect4",
@@ -76,7 +76,7 @@
         "subtitle": "",
         "date": "2022",
         "about": "",
-        "techStack": ["Python", "MatLab"],
+        "techStack": ["Python", "Matplotlib", "NumPy"],
         "github": "",
         "link": ""
     }, 
@@ -93,10 +93,10 @@
         "title": "MarketPush",
         "subtitle": "",
         "date": "2023",
-        "about": "",
+        "about": "B2B Marketplace platform",
         "techStack": [""],
         "github": "",
-        "link": ""
+        "link": "https://www.marketpush.com/"
     }
 
 ]
