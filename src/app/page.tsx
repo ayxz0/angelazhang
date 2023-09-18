@@ -1,5 +1,10 @@
 import { Introduction } from "@/components/Introduction";
 import { Card } from "@/components/Card";
+import { Project } from "@/components/Project";
+
+const js = "";
+const tsx = "";
+
 
 export default function Home() {
     return (
@@ -9,7 +14,7 @@ export default function Home() {
                     <Introduction />    
                 </div>
                 <div className="w-9/12 justify-between items-stretch text-sm lg:flex">
-                    
+            ss
                 </div>
                 {/* <div className="w-9/12 justify-between items-stretch text-sm lg:flex">
                     <Card title="Languages" children={
@@ -42,49 +47,14 @@ export default function Home() {
                             
                         </ul>
                     }/> 
-                </div>
+                </div> */}
+                
                 <div className="w-9/12 text-white justify-center font-mono text-sm lg:flex">
-                    <div className="text-3xl font=bold">
-                        <p>Projects</p>
+                    <div className="w-full">
+                        <Project />
                     </div>
-                    
                 </div>
-                    <div className="w-full justify-center items-stretch lg:flex">
-                        <Card title="EcoMap" subtitle="Hackathon" children={
-                                <p>Website</p>
-                        }/>
-                        <Card title="Bobo Tea House" subtitle="web design" children={
-                                <p>Ecomap is super cool</p>
-                        }/>
-                        <Card title="Carbon Calculator" subtitle="Hackathon" children={
-                                <p>Website</p>
-                        }/>
-                        <Card title="Mission:Citizen" subtitle="web editor" children={
-                                <p>Ecomap is super cool</p>
-                        }/>            
-                    </div>
-                    <div className="w-full justify-center items-stretch lg:flex">
-                        <Card title="M:C Online" subtitle="Web Development" children={
-                                <p>Website</p>
-                        }/>
-                        <Card title="Connect 4" subtitle="web editor" children={
-                                <p>Ecomap is super cool</p>
-                        }/>
-                        <Card title="2021-2022" subtitle="Web Development" children={
-                                <p>Website</p>
-                        }/>
-                        <Card title="2020-2021" subtitle="web editor" children={
-                                <p>Ecomap is super cool</p>
-                        }/>      
-                    </div>
-                    <div className="w-full justify-center items-stretch lg:flex">
-                        <Card title="Riemann Sums" subtitle="Web Development" children={
-                                <p>Website</p>
-                        }/>
-                        <Card title="Newton Raphson" subtitle="web editor" children={
-                                <p>Ecomap is super cool</p>
-                        }/>     
-                    </div> */}
+                    
             </main>
         </html>
     )
