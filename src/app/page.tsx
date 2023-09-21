@@ -14,7 +14,7 @@ export default function Home() {
                     <Introduction />    
                 </div>
                 <div className="w-9/12 justify-between items-stretch text-sm lg:flex">
-            ss
+                    
                 </div>
                 {/* <div className="w-9/12 justify-between items-stretch text-sm lg:flex">
                     <Card title="Languages" children={
@@ -50,9 +50,9 @@ export default function Home() {
                 </div> */}
                 
                 <div className="w-9/12 text-white justify-center font-mono text-sm lg:flex">
-                    <div className="w-full">
+                    {/* <div className="w-full">
                         <Project />
-                    </div>
+                    </div> */}
                 </div>
                     
             </main>
