@@ -78,7 +78,7 @@
         "about": "",
         "techStack": ["Python", "Matplotlib", "NumPy"],
         "github": "",
-        "link": ""
+        "link": "https://replit.com/@azhang04/RiemannSums"
     }, 
     {
         "title": "Newton Raphson",
