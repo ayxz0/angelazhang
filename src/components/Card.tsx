@@ -18,14 +18,8 @@ export const Card = ( props: IProject) =>{
     return (
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-            <div className="justify-start bg-opacity-10 bg-white group text-white mx-5 my-10 p-7 w-full text-white border border-solid border-slate-100 hover:border-white rounded-md hover:shadow-3xl">
-                {/* <div className="mb-1 uppercase text-slate-100 block group-hover:hidden"> {date} </div>
-                <div className="mb-1 uppercase text-slate-100 hidden group-hover:block hover:transition-all"> { subtitle } </div>
-                <div className="mb-5 font-bold text-2xl"> {title} </div>
-                <div className="text-lg"> {children} </div>
-                {/* &nbsp; 
-                <div className="">&nbsp;</div>
-                <div className="mb-1 uppercase text-slate-100"> {techstack} </div> */}
+            {/* border border-solid border-slate-100 hover:border-white rounded-md */}
+            <div className="justify-start group text-white mx-5 my-10 p-7 w-full text-white hover:shadow-3xl">
                 <div className="block">
                     <div className="mb-1 font-bold text-2xl"> {title} 
                         <span className="ms-10">
@@ -47,6 +41,7 @@ export const Card = ( props: IProject) =>{
                         }
                     </div>
                 </div>
+                <hr className="mt-3"></hr>
             </div>
         </>
     )

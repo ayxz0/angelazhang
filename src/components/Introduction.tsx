@@ -1,8 +1,24 @@
+/* import {
+    Animate,
+    initTE,
+  } from "tw-elements";
+  
+  initTE({ Animate }); */
+
 export const Introduction= () => {
+    
     return (
         <>
+            {/* <div 
+                data-te-animation-init
+                data-te-animation-start="onLoad"
+                data-te-animation-reset="true"
+                data-te-animation="[slide-right_1s_ease-in-out]"
+                className="">
+
+            </div> */}
             <div className="w-full justify-content space-y-10">
-                <div className="items-center flex row m-5 space-x-4 h-11">
+                <div className="items-center flex justify-center m-5 space-x-4 h-11">
                     <div className="name text-7xl text-white italic font-bold uppercase">
                         <span>Angela</span><span className="last">Zhang</span>
                     </div>
@@ -27,7 +43,7 @@ export const Introduction= () => {
                             <p>Class of 2024 @ Lincoln High School</p>
                             <p className="pb-2">Portland, Oregon</p>
                         </div>
-                        <hr className="mt-3"></hr>
+                        
                     </div>
                     
                 </div>

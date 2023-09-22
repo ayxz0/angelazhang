@@ -16,9 +16,9 @@
   }
 }
 
-/* body {
-     background-color: rgb(var(--foreground-rgb)); 
-} */
+body {
+    background-color: rgb(var(--foreground-rgb)); 
+}
 
 html * {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -37,40 +37,8 @@ html * {
     box-shadow: 0 0 25px var(--glow);
 }
 
-.home-bg {
-    /* background: linear-gradient(50deg, #5499fa, #9ac3fd, #88d9ff, #5ebfff); */
-    background: linear-gradient(50deg, #002448, #4e005e, #001360, #5c0075);
-    background-size: 800% 800%;
-
-    -webkit-animation: AnimationName 23s ease infinite;
-    -moz-animation: AnimationName 23s ease infinite;
-    -o-animation: AnimationName 23s ease infinite;
-    animation: AnimationName 23s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-
 .name {
-    font-size: 130px;
+    font-size: 100px;
 }
 
 .name > .last {
