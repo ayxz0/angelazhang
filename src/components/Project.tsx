@@ -1,4 +1,5 @@
 import { Card } from "./Card";
+import { ListLink } from "./ListLink";
 
 export const Project = ( { title, children, subtitle, date, techstack } : { children?: React.ReactNode, title?: string, subtitle?: string, date?: string, techstack?: string } ) =>{
     const projects = require("../projects.json");
@@ -6,9 +7,9 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
     return (
         <>
             <div className="flex w-full">
-                <div className="w-1/2">
+                <div className="w-3/4">
                     {projects.map((project: any) =>
-                        <div className="">
+                        <div id={project.title}>
                             <Card 
                                 title={project.title}
                                 subtitle={project.subtitle}
@@ -21,14 +22,14 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
                         </div>
                     )}
                 </div>
-                <div className="w-1/2">
+                <div className="w-1/4 p-2">
                     <div className="h-screen overflow-scroll ">
                     {projects.map((project: any) =>
                         <div className="">
-                            <Card 
+                            <ListLink 
                                 title={project.title}
                             />
-                            <a href="#${project.title}"></a>
+                            {/* <a href={`#${project.title}`} /> */}
 
                         </div>
                     )}
