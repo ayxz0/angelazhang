@@ -3,8 +3,17 @@
         "title": "EcoMap",
         "subtitle": "Hackathon",
         "date": "August 2023",
-        "about": "super cool and awesome project B)",
-        "techStack": ["JavaScript", "Tailwind"],
+        "about": "EcoMap is an innovative website bringing critical energy information to a wide audience. With updating statistics gathered through multiple decades, EcoMap delivers the important data to consumers.",
+        "techStack": ["HTML", "JavaScript", "Tailwind", "chart.js", "leaflet.js", "raphael.js", "jQuery", "tomtom Geocode API", "EIA API"],
+        "github": "https://github.com/Tabadia/EcoMap",
+        "link": "https://www.ecomap.wiki/"
+    }, 
+    {
+        "title": "Personal Site v2",
+        "subtitle": "Personal",
+        "date": "2023",
+        "about": "This website B)",
+        "techStack": ["React", "Next.js", "Tailwind", "Vercel"],
         "github": "https://github.com/Tabadia/EcoMap",
         "link": "https://www.ecomap.wiki/"
     }, 
@@ -13,7 +22,7 @@
         "subtitle": "Web Development",
         "date": "April 2023",
         "about": "Website for Bobo Tea House w/ SendGrid API",
-        "techStack": ["Bootstrap", "SendGrid", "Glitch"],
+        "techStack": ["HTML", "Bootstrap", "JavaScript", "SendGrid API", "Glitch"],
         "github": "",
         "link": "https://ayxz0.github.io/fbla/home"
     }, 
@@ -21,7 +30,7 @@
         "title": "Carbon Calculator",
         "subtitle": "Hackathon",
         "date": "March 2022",
-        "about": "A website that calculates your carbon footprint",
+        "about": "Carbon Calculator is a web application designed to aid the user in decreasing their carbon footprint, discover where and when you emit the most CO2, and see how you can prevent or offset that amount.",
         "techStack": ["Tailwind"],
         "github": "https://github.com/Tabadia/CarbonCalculator",
         "link": "https://tabadia.github.io/CarbonCalculator/public/"
@@ -94,7 +103,7 @@
         "subtitle": "Internship",
         "date": "2023",
         "about": "B2B Marketplace platform",
-        "techStack": [""],
+        "techStack": ["React", "GraphQL", "Hasura", "Azure"],
         "github": "",
         "link": "https://www.marketpush.com/"
     }

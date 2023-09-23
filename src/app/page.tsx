@@ -29,7 +29,7 @@ export default function Home() {
 
                 <div id="projects" className="pt-12 w-full text-white">
                     <div className="pe-14 ps-20">
-                        <div className="pt-5 pb-3 flex justify-center font-bold text-5xl">
+                        <div className="mb-2 pt-5 pb-3 flex justify-center font-bold text-5xl">
                             Projects
                         </div>
                         <div className="flex">
