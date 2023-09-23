@@ -7,7 +7,7 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
     return (
         <>
             <div className="flex w-full">
-                <div className="w-3/4">
+                <div className="w-3/4 me-7">
                     {projects.map((project: any) =>
                         <div id={project.title}>
                             <Card 
@@ -22,10 +22,10 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
                         </div>
                     )}
                 </div>
-                <div className="w-1/4 p-2">
-                    <div className="h-screen overflow-scroll ">
+                <div className="w-1/4 p-[1px] rounded-lg bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300 flex justify-center h-fit sticky top-[15vh]">
+                    <div className="overflow-scroll p-1 m-[1px] w-full h-full rounded-lg bg-zinc-900" style={{height: "80vh"}}>
                     {projects.map((project: any) =>
-                        <div className="">
+                        <div className="flex justify-center m-1">
                             <ListLink 
                                 title={project.title}
                             />

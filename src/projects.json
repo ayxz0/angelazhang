@@ -10,9 +10,9 @@
     }, 
     {
         "title": "Bobo Tea House",
-        "subtitle": "Web Design",
+        "subtitle": "Web Development",
         "date": "April 2023",
-        "about": "",
+        "about": "Website for Bobo Tea House w/ SendGrid API",
         "techStack": ["Bootstrap", "SendGrid", "Glitch"],
         "github": "",
         "link": "https://ayxz0.github.io/fbla/home"
@@ -28,16 +28,16 @@
     }, 
     {
         "title": "Mission:Citizen",
-        "subtitle": "",
+        "subtitle": "Web Design",
         "date": "2023",
-        "about": "",
+        "about": "Main webpage",
         "techStack": ["SquareSpace"],
         "github": "",
         "link": "https://missioncitizen.org/"
     }, 
     {
         "title": "M:C Online",
-        "subtitle": "",
+        "subtitle": "Online Learning Platform",
         "date": "2023",
         "about": "",
         "techStack": ["Firebase"],
@@ -46,7 +46,16 @@
     }, 
     {
         "title": "Connect4",
-        "subtitle": "",
+        "subtitle": "School",
+        "date": "2022",
+        "about": "Console based Connect4 game",
+        "techStack": ["Java"],
+        "github": "",
+        "link": ""
+    }, 
+    {
+        "title": "2021-2022",
+        "subtitle": "School",
         "date": "2022",
         "about": "",
         "techStack": ["Java"],
@@ -54,18 +63,9 @@
         "link": ""
     }, 
     {
-        "title": "2021-2022",
-        "subtitle": "",
-        "date": "",
-        "about": "",
-        "techStack": ["Java"],
-        "github": "",
-        "link": ""
-    }, 
-    {
         "title": "2020-2021",
-        "subtitle": "",
-        "date": "",
+        "subtitle": "School",
+        "date": "2021",
         "about": "",
         "techStack": ["Java"],
         "github": "",
@@ -73,7 +73,7 @@
     }, 
     {
         "title": "Riemann Sums",
-        "subtitle": "",
+        "subtitle": "Math",
         "date": "2022",
         "about": "",
         "techStack": ["Python", "Matplotlib", "NumPy"],
@@ -82,7 +82,7 @@
     }, 
     {
         "title": "Newton Raphson",
-        "subtitle": "",
+        "subtitle": "Math",
         "date": "2023",
         "about": "",
         "techStack": ["Sheets"],
@@ -91,7 +91,7 @@
     }, 
     {
         "title": "MarketPush",
-        "subtitle": "",
+        "subtitle": "Internship",
         "date": "2023",
         "about": "B2B Marketplace platform",
         "techStack": [""],

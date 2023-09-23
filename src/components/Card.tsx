@@ -1,6 +1,6 @@
 import { Badge } from "./Badge";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 interface IProject {
     title?: string;
     subtitle?: string;
@@ -18,20 +18,35 @@ export const Card = ( props: IProject) =>{
     return (
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-            {/* border border-solid border-slate-100 hover:border-white rounded-md */}
-            <div className="justify-start group text-white mx-5 my-10 p-7 w-full text-white hover:shadow-3xl">
-                <div className="block">
-                    <div className="mb-1 font-bold text-2xl"> {title} 
+
+            {link ? <a className="" href={link}> 
+                <div className="hover:bg-zinc-800 rounded-md">
+                    <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github}/>
+                </div>            
+            </a> : 
+                <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github}/>    
+            }
+            
+        </>
+    )
+}
+
+const Content = ( props: IProject ) => {
+    const {title, subtitle, date, techstack, about, github} = props;
+    return (
+        <>
+            <div className="justify-start group mx-5 py-4 pr-10 w-full text-white">
+                <div className="ml-5 block w-11/12">
+                    <span className="mb-1 text-md uppercase text-zinc-200 block group-hover:hidden"> {date} </span>
+                    <span className="mb-1 text-md uppercase text-zinc-200 hidden group-hover:block"> { subtitle } </span>
+                    <div className="mb-1 font-bold text-2xl"> {title}                         
                         <span className="ms-10">
                             {github ? <a href={github}> <i className="opacity-60 hover:opacity-100 devicon-github-original" /> </a> : null}
-                            {link ? <a className="ms-1" href={link}> <FontAwesomeIcon className="opacity-60 hover:opacity-100 max-h-5"icon={faLink} style={{color: "#ffffff",}} /> </a> : null}
                         </span>
-                        
                     </div>
-                    <span className="mb-5 text-md uppercase text-slate-200 block group-hover:hidden"> {date} </span>
-                    <span className="mb-5 text-md uppercase text-slate-200 hidden group-hover:block"> { subtitle } </span>
+                    
                     <div className="mb-5 px-5 text-lg"> {about} </div>
-                    <div className="text-md text-slate-200"> 
+                    <div className="pb-2 text-md text-zinc-200"> 
                         {
                             techstack ? 
                                 techstack?.map((tech: string)=> 
@@ -41,7 +56,9 @@ export const Card = ( props: IProject) =>{
                         }
                     </div>
                 </div>
-                <hr className="mt-3"></hr>
+                <div className="flex border-white border-2 inline-block w-1/12">
+                    <FontAwesomeIcon className="hidden group-hover:block max-h-5"icon={faArrowUpRightFromSquare} style={{color: "#ffffff",}} />
+                </div>
             </div>
         </>
     )
