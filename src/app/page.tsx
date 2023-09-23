@@ -40,7 +40,7 @@ export default function Home() {
 
                 <div id="skills" className="pt-12 w-full h-screen text-white">
                     <div className="pe-14 ps-20">
-                        <div className="pt-5 pb-3 flex justify-center font-bold text-5xl">
+                        <div className="pt-5 pb-12 flex justify-center font-bold text-5xl">
                             Skills
                         </div>
                         <div className="flex">
@@ -91,10 +91,6 @@ export default function Home() {
                     <Project />
                 </div> */}
             </div>
-            <script
-                type="text/javascript"
-                src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
-            </script>        
         </main>
 
     )

@@ -42,7 +42,7 @@ const Content = ( props: IProject ) => {
                     <div className="mb-1 font-bold text-2xl"> {title}</div>
                     
                     <div className="mb-5 py-2 px-5 text-lg"> {about} </div>
-                    <div className="pb-2 text-md text-zinc-200 auto invisible lg:visible"> 
+                    <div className="pb-2 max-w-full text-md text-zinc-200 auto invisible lg:visible"> 
                         {
                             techstack ? 
                                 techstack?.map((tech: string)=> 

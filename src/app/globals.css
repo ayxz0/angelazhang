@@ -41,6 +41,11 @@ html * {
     font-size: 100px;
 }
 
+.circle-border {
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+}
+
 .name > .last {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: white;

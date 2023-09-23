@@ -1,0 +1,42 @@
+{
+    "important":[
+        {
+            "name": "JavaScript",
+            "ability": 90
+        },
+        {
+            "name": "HTML",
+            "ability": 70
+        },
+        {
+            "name": "CSS",
+            "ability": 50
+        },
+        {
+            "name": "React",
+            "ability": 60
+        },
+        {
+            "name": "Tailwind",
+            "ability": 90
+        },
+        {
+            "name": "Bootstrap",
+            "ability": 80
+        },
+        {
+            "name": "Java",
+            "ability": 70
+        },
+        {
+            "name": "Node.js",
+            "ability": 50
+        },
+        {
+            "name": "Python",
+            "ability": 30
+        }
+    ], 
+    "tools": ["Github", "Bash", "Vim", "Figma", "GraphQL", "PostgreSQL", "Azure", "Firebase", "Nextjs", "Canva", "ESLint", "Slack", "Typescript", "VSCode"],
+    "knowledge": ["ES6", "SQL", "Postman", "SquareSpace", "Scrum/Agile", "Hasura", "Vercel" ]
+}
