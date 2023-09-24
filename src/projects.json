@@ -39,7 +39,7 @@
         "title": "Bobo Tea House",
         "subtitle": "Web Development",
         "date": "April 2023",
-        "about": "A website for Bobo Tea House, a locally bubble tea shop located in Hillsboro Oregon",
+        "about": "A website for Bobo Tea House, a locally bubble tea shop located in Hillsboro, Oregon.",
         "techStack": ["HTML", "Bootstrap", "JavaScript", "SendGrid API", "Glitch"],
         "github": "",
         "link": "https://ayxz0.github.io/fbla/home"

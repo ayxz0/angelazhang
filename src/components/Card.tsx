@@ -46,7 +46,7 @@ const Content = ( props: IProject ) => {
                         {
                             techstack ? 
                                 techstack?.map((tech: string)=> 
-                                    <Badge key={tech.toString()}text={tech} />
+                                    <Badge key={`techstack_${tech}`}text={tech} />
                                 )
                             : null
                         }
@@ -56,8 +56,9 @@ const Content = ( props: IProject ) => {
                     <div className="h-1/2 w-full pt-1 flex justify-end">
                         {link ? <FontAwesomeIcon className="hidden group-hover:block max-h-5"icon={faArrowUpRightFromSquare} style={{color: "#ffffff",}} /> : null}
                     </div>
+                    <button></button>
                     <div className="flex justify-center items-end h-1/2 w-full pb-1">
-                        {github ? <a href={github}> <i className="flex h-full w-full opacity-60 hover:opacity-100 devicon-github-original text-3xl" /></a> : null}
+                        {/* {github ? <a href={github}> <i className="flex h-full w-full opacity-60 hover:opacity-100 devicon-github-original text-3xl" /></a> : null} */}
                     </div>
                 </div>
             </div>

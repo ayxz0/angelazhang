@@ -7,7 +7,7 @@ export const Header = () => {
                     <a className="hover:text-zinc-500" href="#projects">Projects</a>
                     <a className="hover:text-zinc-500" href="#skills">Skills</a>
                 </div>
-            </div>          
+            </div>     
         </>
     )
 }

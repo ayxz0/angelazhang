@@ -9,7 +9,7 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
             <div className="flex w-full">
                 <div className="w-2/3 me-7 sm:w-full">
                     {projects.map((project: any) =>
-                        <div key={project.title.toString()}id={project.title}>
+                        <div key={`project_${project.title}`} id={project.title}>
                             <Card 
                                 title={project.title}
                                 subtitle={project.subtitle}
@@ -21,18 +21,18 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
                             />
                         </div>
                     )}
-                </div>
+                </div> 
                 <div className="lg:visible invisible w-1/3 p-[1px] rounded-lg bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300 flex justify-center h-fit sticky top-[15vh]">
                     <div className="overflow-scroll p-1 m-[1px] w-full h-full rounded-lg bg-zinc-900" style={{height: "80vh"}}>
                     {projects.map((project: any) =>
-                        <div key={project.title.toString()}className="flex justify-center m-1">
+                        <div key={`prjList_${project.title}`} className="flex justify-center m-1">
                             <ListLink 
                                 title={project.title}
                             />
                         </div>
                     )}
                     </div>
-                </div>
+                </div> 
             </div>
             
             
