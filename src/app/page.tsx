@@ -30,10 +30,10 @@ export default function Home() {
                             </div>
                             <div className="text-white max-w-5xl w-full justify-center text-sm lg:flex">
                                 <div className="h-20 text-3xl space-x-4 flex justify-between items-center">
-                                    <a href="https://www.linkedin.com/in/angela-zhang-b1a141233/">
+                                    <a target="_blank" href="https://www.linkedin.com/in/angela-zhang-b1a141233/">
                                         <i className="opacity-70 hover:opacity-100 devicon-linkedin-plain"></i>
                                     </a>
-                                    <a href="https://github.com/ayxz0">
+                                    <a target="_blank" href="https://github.com/ayxz0">
                                         <i className="opacity-70 hover:opacity-100 devicon-github-plain"></i>
                                     </a>
                                 </div>

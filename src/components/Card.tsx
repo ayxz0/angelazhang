@@ -19,7 +19,7 @@ export const Card = ( props: IProject) =>{
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
 
-            {link ? <a className="" href={link}> 
+            {link ? <a target="_blank" className="" href={link}> 
                 <div className="hover:bg-zinc-800 rounded-lg">
                     <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github} link={link}/>
                 </div>            
