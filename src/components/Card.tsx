@@ -46,7 +46,7 @@ const Content = ( props: IProject ) => {
                         {
                             techstack ? 
                                 techstack?.map((tech: string)=> 
-                                    <Badge text={tech} />
+                                    <Badge key={tech.toString()}text={tech} />
                                 )
                             : null
                         }

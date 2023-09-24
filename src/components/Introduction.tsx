@@ -52,3 +52,19 @@ export const Introduction= () => {
         </>
     )
 } 
+
+export const Socials = () => {
+    return (
+        <>
+            <div className="h-10 w-full inline-block">
+                <a href="https://linkedin/angelazhang">
+                    <i className="devicon-linkedin-plain"></i>
+                </a>
+                <a href="https://github/ayxz0">
+                    <i className="devicon-github-plain"></i>
+                </a>
+            </div>
+            
+        </>
+    )
+}

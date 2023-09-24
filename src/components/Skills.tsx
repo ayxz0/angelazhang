@@ -69,10 +69,13 @@ export const Skills = () => {
             <div className="lg:flex w-full">
                 <div className="w-1/3 lg:grid lg:grid-cols-3 lg:gap-x-10 gap-y-3">
                     {skills.important.map((important : any) => 
-                        <SCircle 
-                            name={important.name}
-                            ability={important.ability}
-                        />
+                        <div key={important.name.toString()}>
+                            <SCircle 
+                                name={important.name}
+                                ability={important.ability}
+                            />
+                        </div>
+                        
                     )}
                 </div>
                 <div className="w-1/12 my-10 invisible lg:visible"><Vr /></div>
@@ -85,7 +88,7 @@ export const Skills = () => {
                         <ul className="ms-1">
                             <div className="lg:grid lg:grid-cols-2 lg:gap-x-5">
                                 {skills.tools.map((tool : any) => 
-                                    <li>
+                                    <li key={tool.toString()}>
                                         <div className="items-center">
                                             <i className={`me-2 w-full opacity-60 devicon-${tool.toLowerCase()}-plain`} />
                                             {tool}
@@ -102,7 +105,7 @@ export const Skills = () => {
                             Knowlege</div>
                         <ul className="ms-1">
                             {skills.knowledge.map((know : any) => 
-                                <li>{know}</li>
+                                <li key={know.toString()}>{know}</li>
                             )}
                         </ul>
                     </div>

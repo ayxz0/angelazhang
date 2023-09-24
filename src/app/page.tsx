@@ -1,4 +1,4 @@
-import { Introduction } from "@/components/Introduction";
+import { Introduction, Socials } from "@/components/Introduction";
 import { Card } from "@/components/Card";
 import { Project } from "@/components/Project";
 import { Header } from "@/components/Header";
@@ -18,8 +18,9 @@ export default function Home() {
                 <div className="max-w-5xl w-full justify-center text-sm lg:flex">
                     <Introduction />    
                 </div>
-                <div className="w-9/12 justify-between items-stretch text-sm lg:flex">
-                    
+                <div className="text-white max-w-5xl w-full justify-center text-sm lg:flex">
+                    <Socials />
+
                 </div>
             </div>
             <div className="w-full">
