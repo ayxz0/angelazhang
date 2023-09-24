@@ -57,7 +57,7 @@ const Content = ( props: IProject ) => {
                         {link ? <FontAwesomeIcon className="hidden group-hover:block max-h-5"icon={faArrowUpRightFromSquare} style={{color: "#ffffff",}} /> : null}
                     </div>
                     <div className="flex justify-center items-end h-1/2 w-full pb-1">
-                        {github ? <a href={github}> <i className="flex h-full w-full opacity-60 hover:opacity-100 devicon-github-original" /></a> : null}
+                        {github ? <a href={github}> <i className="flex h-full w-full opacity-60 hover:opacity-100 devicon-github-original text-3xl" /></a> : null}
                     </div>
                 </div>
             </div>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    .text-edge-outline {
+      -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+    }
+} 
+
 :root {
     --foreground-rgb: 24, 24, 27;
     --background-start-rgb: 0, 0, 0;
@@ -25,25 +31,8 @@ html * {
     transition: 0.5s;
 }
 
-.glow {
-    border-style: solid;
-    border-width: 1px;
-    /* border-color: var(--glowInitial); */
-    transition: 0.3s
-}
-
-.glow:hover {
-    border-color: var(--glow);
-    box-shadow: 0 0 25px var(--glow);
-}
-
 .name {
     font-size: 100px;
-}
-
-.circle-border {
-    border-top: 1px solid;
-    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
 }
 
 .name > .last {

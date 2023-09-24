@@ -29,8 +29,6 @@ export const Project = ( { title, children, subtitle, date, techstack } : { chil
                             <ListLink 
                                 title={project.title}
                             />
-                            {/* <a href={`#${project.title}`} /> */}
-
                         </div>
                     )}
                     </div>

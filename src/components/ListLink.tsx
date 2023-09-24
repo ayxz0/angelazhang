@@ -7,7 +7,6 @@ export const ListLink = ({ title }: { title: string }) => {
                         {title}
                     </div>
                 </a>
-                
             </div>
         </>
     )
