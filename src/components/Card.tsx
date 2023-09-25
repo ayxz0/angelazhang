@@ -1,24 +1,12 @@
 import { Badge } from "./Badge";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-interface IProject {
-    title?: string;
-    subtitle?: string;
-    date?: string;
-    techstack?: string[];
-    about?: string;
-    github?: string;
-    link?:string;
-}
+import { IProject } from "./Projects";
 
-//children?: React.ReactNode,
-//{ title, subtitle, date, techstack } : {  title?: string, subtitle?: string, date?: string, techstack?: string } 
 export const Card = ( props: IProject) =>{
     const {title, subtitle, date, techstack, about, github, link} = props;
     return (
         <>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-
             {link ? <a target="_blank" className="" href={link}> 
                 <div className="hover:bg-zinc-800 rounded-lg">
                     <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github} link={link}/>
@@ -46,7 +34,7 @@ const Content = ( props: IProject ) => {
                         {
                             techstack ? 
                                 techstack?.map((tech: string)=> 
-                                    <Badge key={`techstack_${tech}`}text={tech} />
+                                    <Badge key={`techstack_${tech}`} text={tech} />
                                 )
                             : null
                         }
