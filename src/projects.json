@@ -1,9 +1,9 @@
 [
     {
-        "title": "Personal Site v2",
+        "title": "Personal Site",
         "subtitle": "Personal",
         "date": "2023",
-        "about": "The website you are currently on :)",
+        "about": "The website you are currently on!",
         "techstack": ["React", "Next.js", "Tailwind", "Vercel", "TypeScript"],
         "github": "https://github.com/ayxz0/angelazhang",
         "link": "https://www.angelazhang.xyz/"

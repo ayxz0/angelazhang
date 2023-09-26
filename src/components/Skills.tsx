@@ -59,7 +59,7 @@ export const Skills = () => {
                         </ul>
                     </div>
                     <div className="w-1/3 mx-16">
-                        <div className="font-bold text-xl mb-4 flex justify-center">
+                        <div className="font-bold text-xl mb-4 flex">
                             <FontAwesomeIcon className="me-3 h-6 opacity-70" icon={faBookOpen} />
                             Knowlege</div>
                         <ul className="ms-1">

@@ -37,6 +37,6 @@
             "ability": 30
         }
     ], 
-    "tools": ["Github", "Bash", "Vim", "Figma", "GraphQL", "PostgreSQL", "Azure", "Firebase", "Nextjs", "Canva", "ESLint", "Slack", "Typescript", "VSCode"],
-    "knowledge": ["ES6", "SQL", "Postman", "SquareSpace", "Scrum/Agile", "Hasura", "Vercel" ]
+    "tools": ["Github", "Bash", "Vim", "Figma", "GraphQL", "PostgreSQL", "Azure", "Firebase", "Nextjs", "Canva", "Slack", "Typescript", "VSCode"],
+    "knowledge": ["ES6", "Postman", "SquareSpace", "Scrum/Agile", "Hasura", "Vercel" ]
 }

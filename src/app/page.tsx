@@ -54,8 +54,10 @@ export default function Home() {
             </section>
             <div id="footer" className="flex text-zinc-600 justify-center pt-[7vh] font-thin text-sm pb-4"> 
                 <div>
-                    Angela Zhang &copy; 2023; 
-                    Built with Next.js and Tailwind CSS, deployed with Vercel.
+                    <div className="flex justify-center">
+                        Angela Zhang &copy; 2023; 
+                        Built with Next.js and Tailwind CSS, deployed with Vercel.
+                    </div>
                     <div className="flex justify-center">
                         Animation inspired by <a className="hover:text-zinc-300" href="https://chronark.com/"> &nbsp;chronark</a>.
                     </div> 
