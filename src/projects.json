@@ -30,7 +30,7 @@
         "title": "M:C Online",
         "subtitle": "Web Development",
         "date": "2023",
-        "about": "Mission:Citizen's online learning platform that allows students to learn and prepare for the naturalization test from anywhere. Students can watch pre-recorded videos of teachers going over each lesson and complete quizzes to test their knowledge, all at their own pace.",
+        "about": "Mission:Citizen's online learning platform allows students to learn and prepare for the naturalization test from anywhere. Students can watch pre-recorded videos of teachers going over each lesson and complete quizzes to test their knowledge, all at their own pace.",
         "techstack": ["Firebase", "HTML", "JavaScript", "CSS", "node.js"],
         "github": "https://github.com/terreng/Mission-Citizen-Online-Prep",
         "link": "https://online.missioncitizen.org/"
@@ -39,7 +39,7 @@
         "title": "Bobo Tea House",
         "subtitle": "Web Development",
         "date": "April 2023",
-        "about": "A website for Bobo Tea House, a locally bubble tea shop located in Hillsboro, Oregon.",
+        "about": "A website for Bobo Tea House, a locally-owned bubble tea shop located in Hillsboro, Oregon.",
         "techstack": ["HTML", "Bootstrap", "JavaScript", "SendGrid API", "Glitch"],
         "github": "",
         "link": "https://ayxz0.github.io/fbla/home"
@@ -79,15 +79,6 @@
         "techstack": ["Tailwind", "HTML", "JavaScript"],
         "github": "https://github.com/Tabadia/CarbonCalculator",
         "link": "https://tabadia.github.io/CarbonCalculator/public/"
-    }, 
-    {
-        "title": "Connect4",
-        "subtitle": "School",
-        "date": "2022",
-        "about": "Command Line based Connect4 game",
-        "techstack": ["Java"],
-        "github": "",
-        "link": ""
     }, 
     {
         "title": "2021-2022",
