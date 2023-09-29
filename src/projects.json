@@ -42,7 +42,7 @@
         "about": "A website for Bobo Tea House, a locally-owned bubble tea shop located in Hillsboro, Oregon.",
         "techstack": ["HTML", "Bootstrap", "JavaScript", "SendGrid API", "Glitch"],
         "github": "",
-        "link": "https://ayxz0.github.io/fbla/home"
+        "link": "https://ayxz0.github.io/bobotea/"
     }, 
     {
         "title": "Newton Raphson & Algorithms",
