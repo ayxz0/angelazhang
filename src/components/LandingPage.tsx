@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function LandingPage() {
     return (
@@ -29,9 +29,6 @@ export default function LandingPage() {
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/angela-zhang-b1a141233/">
                             <i className="opacity-70 hover:opacity-100 devicon-linkedin-plain"></i>
-                        </a>
-                        <a target="_blank" href="tell:503-453-0184">
-                            <FontAwesomeIcon className="opacity-70 hover:opacity-100" icon={ faPhone } />
                         </a>
                         <a target="_blank" href="mailto:angelaz.yuxi@gmail.com">
                             <FontAwesomeIcon className="opacity-70 hover:opacity-100" icon={ faEnvelope } />
