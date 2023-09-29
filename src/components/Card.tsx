@@ -7,11 +7,12 @@ export const Card = ( props: IProject) =>{
     const {title, subtitle, date, techstack, about, github, link} = props;
     return (
         <>
-            {link ? <a target="_blank" className="" href={link}> 
-                <div className="hover:bg-zinc-800 rounded-lg">
+            {link ? <>
+                <div>
+                    <a className="group group/link" href={link}/>
                     <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github} link={link}/>
-                </div>            
-            </a> : 
+                </div> 
+            </> : 
                 <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github}/>    
             }
             

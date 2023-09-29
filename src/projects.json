@@ -48,7 +48,7 @@
         "title": "Newton Raphson & Algorithms",
         "subtitle": "Math",
         "date": "2023",
-        "about": "",
+        "about": "A collection of iterative root-finding algorithms (Newton Raphson, Bisection, and Secant) and a comparison of their efficiencies/complexity.", 
         "techstack": ["Sheets"],
         "github": "",
         "link": ""
