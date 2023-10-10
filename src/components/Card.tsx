@@ -9,7 +9,8 @@ export const Card = ( props: IProject) =>{
         <>
             {link ? <>
                 <div>
-                    <a className="group group/link" href={link}/>
+                    {/* <a className="group group/link" href={link} target="_blank"/> */}
+                    <a target="_blank" href={link}/>
                     <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github} link={link}/>
                 </div> 
             </> : 

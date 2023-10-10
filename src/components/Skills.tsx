@@ -34,7 +34,6 @@ export const Skills = () => {
                                 ability={important.ability}
                             />
                         </div>
-                        
                     )}
                 </div>
                 <div className="w-1/12 my-10 invisible lg:visible"><Vr /></div>
