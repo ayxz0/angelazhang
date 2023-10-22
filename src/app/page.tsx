@@ -13,8 +13,8 @@ export default function Home() {
       const handleScroll = () => {
         const skillsSection = document.querySelector('#skills')!;       
         const projsSection = document.querySelector('#projects')!;  
-        const activeSec = projsSection.getBoundingClientRect().top <=0 ? "projects" 
-            : (skillsSection.getBoundingClientRect().top <=0 ? "skills" : "main"); 
+        const activeSec = projsSection?.getBoundingClientRect().top <=0 ? "projects" 
+            : (skillsSection?.getBoundingClientRect().top <=0 ? "skills" : "main"); 
         setActiveSection(activeSec);
       };
   

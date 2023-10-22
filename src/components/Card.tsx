@@ -9,7 +9,6 @@ export const Card = ( props: IProject) =>{
         <>
             {link ? <>
                 <div>
-                    {/* <a className="group group/link" href={link} target="_blank"/> */}
                     <a target="_blank" href={link}/>
                     <Content title={title} subtitle={subtitle} date={date} techstack={techstack} about={about} github={github} link={link}/>
                 </div> 
@@ -48,7 +47,6 @@ const Content = ( props: IProject ) => {
                     </div>
                     <button></button>
                     <div className="flex justify-center items-end h-1/2 w-full pb-1">
-                        {/* {github ? <a href={github}> <i className="flex h-full w-full opacity-60 hover:opacity-100 devicon-github-original text-3xl" /></a> : null} */}
                     </div>
                 </div>
             </div>

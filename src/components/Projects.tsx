@@ -15,40 +15,16 @@ export const Projects = () => {
     const [activeSection, setActiveSection] = useState(-1);
     const projs = require("../projects.json");
 
-/*   useEffect(() => {
-    const handleScroll = () => {
-      // Get the position of each section
-      const sections = document.querySelectorAll('.section');
-      let currentActiveSection = null;
-
-      sections.forEach((section, index) => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 0 && rect.bottom >= 0) {
-          currentActiveSection = index;
-        }
-      });
-
-      if (currentActiveSection !== null) {
-        setActiveSection(currentActiveSection);
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); */
-
     const handleSectionClick = (link: string | undefined) => {
         if (link) window.location.href = link;
     };
 
     const handleLinkClick = (e: React.MouseEvent<HTMLDivElement>, curIndex: number) => {
-        // Prevent the click on the child link from bubbling up to the parent section
         e.stopPropagation();
         setActiveSection(curIndex);
 
         const section = document.querySelector(`.section:nth-child(${curIndex+1})`)!;
-        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+        const sectionTop = section?.getBoundingClientRect().top + window.scrollY;
         window.scrollTo({ top: sectionTop - 45, behavior: 'smooth' });
     }
 
