@@ -79,23 +79,5 @@
         "techstack": ["Tailwind", "HTML", "JavaScript"],
         "github": "https://github.com/Tabadia/CarbonCalculator",
         "link": "https://tabadia.github.io/CarbonCalculator/public/"
-    }, 
-    {
-        "title": "2021-2022",
-        "subtitle": "School",
-        "date": "2022",
-        "about": "A collection of projects from the 2021-2022 school year (IB CS SL 5-6)",
-        "techstack": ["Java"],
-        "github": "",
-        "link": ""
-    }, 
-    {
-        "title": "2020-2021",
-        "subtitle": "School",
-        "date": "2021",
-        "about": "A collection of projects from the 2020-2021 school year (CS 3-4)",
-        "techstack": ["Java"],
-        "github": "",
-        "link": ""
     }
 ]
