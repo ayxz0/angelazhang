@@ -1,10 +1,10 @@
+import CustomCursor from "@/app/CustomCursor";
 import { Header } from "@/components/Header";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function LandingPage() {
     return (
-        <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-zinc-950 via-zinc-500/20 to-black">
+        <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-zinc-950 via-zinc-500/20 to-black">
+            <CustomCursor />
             <nav className="my-2 animate-fade-in">
                 <div className="max-w-5xl w-full justify-center lg:flex">
                     <Header />
@@ -23,15 +23,12 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className="text-white max-w-5xl w-full justify-center text-sm lg:flex">
-                    <div className="h-20 text-3xl space-x-10 flex justify-between items-center">
-                        <a target="_blank" href="https://github.com/ayxz0">
-                            <i className="opacity-70 hover:opacity-100 devicon-github-plain"></i>
-                        </a>
+                    <div className="h-20 text-3xl space-x-4 flex justify-between items-center">
                         <a target="_blank" href="https://www.linkedin.com/in/angela-zhang-b1a141233/">
                             <i className="opacity-70 hover:opacity-100 devicon-linkedin-plain"></i>
                         </a>
-                        <a target="_blank" href="mailto:angelaz.yuxi@gmail.com">
-                            <FontAwesomeIcon className="opacity-70 hover:opacity-100" icon={ faEnvelope } />
+                        <a target="_blank" href="https://github.com/ayxz0">
+                            <i className="opacity-70 hover:opacity-100 devicon-github-plain"></i>
                         </a>
                     </div>
                 </div>

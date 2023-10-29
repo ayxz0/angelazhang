@@ -18,7 +18,7 @@ const CustomCursor = () => {
 
   return (
     <div
-      className="h-screen inset-0 transition duration-300 lg:absolute"
+      className="min-h-screen inset-0 transition duration-300 absolute"
       style={{background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(12, 116, 173, 0.15), transparent 80%)`}}
     ></div>
   );
