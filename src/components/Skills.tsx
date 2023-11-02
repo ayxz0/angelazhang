@@ -2,12 +2,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
 
 const SCircle = ( {name, ability} : {name: string, ability: number} ) => {
-    const size = 100;
-    const strokeWidth = 1;
     return(
         <>
-            <div className="w-full p-[1pt] aspect-square rounded-full bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300">
-                <div className="flex justify-center items-center w-full aspect-square bg-zinc-900 rounded-full">{name}</div>
+            <div className="w-full p-[1pt] aspect-square rounded-full bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300" >
+                <div className="flex justify-center items-center w-full aspect-square bg-zinc-900 min-w-fit rounded-full" >{name}</div>
             </div>
         </>
     )
@@ -25,26 +23,26 @@ export const Skills = () => {
     const skills = require("../skills.json");
     return (
         <>
-            <div className="lg:flex w-full">
-                <div className="w-1/3 lg:grid lg:grid-cols-3 lg:gap-x-10 gap-y-3">
+            <div className="w-full lg:flex">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:w-1/2 lg:grid-cols-3 gap-x-10 gap-y-3">
                     {skills.important.map((important : any) => 
-                        <div key={`skill_${important.name}`}>
+                        <div key={`skill_${important.name}`} >
                             <SCircle 
                                 name={important.name}
                                 ability={important.ability}
                             />
-                        </div>
+                        </div> 
                     )}
                 </div>
                 <div className="w-1/12 my-10 invisible lg:visible"><Vr /></div>
-                <div className="w-1/2 lg:flex mt-10">
-                    <div className="w-2/3 me-5">
+                <div className="lg:w-1/2 lg:mt-10 sm:flex">
+                    <div className="sm:w-2/3">
                         <div className="font-bold text-xl mb-4 flex">
                             <FontAwesomeIcon className="me-3 h-6 opacity-70" icon={faScrewdriverWrench} />
                             Tools
                         </div>
-                        <ul className="ms-1">
-                            <div className="lg:grid lg:grid-cols-2 lg:gap-x-5">
+                        <ul className="ms-1 pe-3">
+                            <div className="grid grid-cols-2 gap-x-5">
                                 {skills.tools.map((tool : any) => 
                                     <li key={`tool_${tool}`}>
                                         <div className="items-center">
@@ -57,7 +55,7 @@ export const Skills = () => {
                             
                         </ul>
                     </div>
-                    <div className="w-1/3 mx-16">
+                    <div className="sm:w-1/3">
                         <div className="font-bold text-xl mb-4 flex">
                             <FontAwesomeIcon className="me-3 h-6 opacity-70" icon={faBookOpen} />
                             Knowlege</div>
@@ -70,7 +68,6 @@ export const Skills = () => {
                     
                 </div>
             </div>
-            
         </>
     )
 }
