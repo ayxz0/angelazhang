@@ -34,7 +34,7 @@ export default function Home() {
             <section id="main" className="bg-black">
                 <LandingPage />           
             </section>
-            <section id="skills" className="bg-gradient-to-r from-zinc-900 from-60% to-zinc-800 to-100% pt-12 w-full h-screen text-white">
+            <section id="skills" className="bg-gradient-to-r from-zinc-900 from-60% to-zinc-800 to-100% pt-12 w-full text-white">
                 <div className="pe-14 ps-20">
                     <div className="pt-5 pb-12 flex justify-center font-bold text-5xl">
                         Skills
