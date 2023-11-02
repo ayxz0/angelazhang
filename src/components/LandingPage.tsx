@@ -13,7 +13,7 @@ export default function LandingPage() {
                 </div>
             </nav>
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300" />
-            <h1 className="italic font-bold px-1 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-xl md:text-7xl whitespace-nowrap bg-clip-text name uppercase">
+            <h1 className="italic font-bold px-1 text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display text-2xl lg:text-6xl whitespace-nowrap bg-clip-text name uppercase">
                 Angela Zhang
             </h1>
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300" />
