@@ -1,10 +1,12 @@
+import CustomCursor from "@/app/CustomCursor";
 import { Header } from "@/components/Header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function LandingPage() {
     return (
-        <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-zinc-950 via-zinc-500/20 to-black">
+        <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-zinc-950 via-zinc-500/20 to-black">
+            <CustomCursor />
             <nav className="my-2 animate-fade-in">
                 <div className="max-w-5xl w-full justify-center lg:flex">
                     <Header />
