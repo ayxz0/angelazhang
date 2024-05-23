@@ -5,8 +5,17 @@
         "date": "2023",
         "about": "The website you are currently on!",
         "techstack": ["React", "Next.js", "Tailwind", "Vercel", "TypeScript"],
-        "github": "https://github.com/ayxz0/angelazhang",
+        "github": "https://github.com/Tabadia/shadowfall",
         "link": "https://www.angelazhang.xyz/"
+    }, 
+    {
+        "title": "Shadowfall",
+        "subtitle": "Oregon Game Project Challenge",
+        "date": "2024",
+        "about": "In Shadowfall you play as a researcher that worked for SOLIS CORP, however during an experiment the emergency alarm goes off. You enter cryo until the alarm turns off and you are safe. When you awake however, something isn't quite right, the sun, the light, it burns. \nYou must travel during the day, avoiding the sun by sticking close to the shadows, and hide in buildings at night to avoid those who were caught in the suns gaze. Guided by the mysterious voice on the radio, you must make your decision, will you save yourself, or fix your mistake?",
+        "techstack": ["Unity", "C#", "Blender", "HDRP"],
+        "github": "https://github.com/ayxz0/angelazhang",
+        "link": ""
     }, 
     {
         "title": "EcoMap",
