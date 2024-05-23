@@ -21,7 +21,7 @@ export default function LandingPage() {
                 <div className="flex text-white text-xl justify-center pt-[7vh] font-thin text-sm"> 
                     <div className="text-center space-y-1">
                         <p>2024 @ Lincoln High School</p>
-                        <p>Jr Dev @ MarketPush </p>
+                        {/* <p>Jr Dev @ MarketPush </p> */}
                     </div>
                 </div>
                 <div className="text-white max-w-5xl w-full justify-center text-sm lg:flex">
