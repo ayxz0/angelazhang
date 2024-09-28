@@ -20,8 +20,7 @@ export default function LandingPage() {
             <div className="my-2 text-center animate-fade-in">
                 <div className="flex text-white text-xl justify-center pt-[7vh] font-thin text-sm"> 
                     <div className="text-center space-y-1">
-                        <p>2024 @ Lincoln High School</p>
-                        {/* <p>Jr Dev @ MarketPush </p> */}
+                        <p>CS @ UCLA</p>
                     </div>
                 </div>
                 <div className="text-white max-w-5xl w-full justify-center text-sm lg:flex">
@@ -32,7 +31,7 @@ export default function LandingPage() {
                         <a target="_blank" href="https://www.linkedin.com/in/angela-zhang-b1a141233/">
                             <i className="opacity-70 hover:opacity-100 devicon-linkedin-plain"></i>
                         </a>
-                        <a target="_blank" href="mailto:angelaz.yuxi@gmail.com">
+                        <a target="_blank" href="mailto:angelayzhang@ucla.edu">
                             <FontAwesomeIcon className="opacity-70 hover:opacity-100" icon={ faEnvelope } />
                         </a>
                     </div>

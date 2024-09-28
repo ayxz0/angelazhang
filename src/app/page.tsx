@@ -49,7 +49,6 @@ export default function Home() {
                     <div className="mb-2 pt-5 pb-3 flex justify-center font-bold text-5xl">
                         Projects
                     </div>
-                    {/* <p className="pb-4 text-xl flex justify-center font-thin text-zinc-300">Please contact <a href="mailto:angelaz.yuxi@gmail.com" className="italic text-teal-500 hover:text-teal-200">&nbsp;angelaz.yuxi@gmail.com&nbsp;</a> for website inquiries.</p> */}
                     <Projects />
                 </div>
             </section>
