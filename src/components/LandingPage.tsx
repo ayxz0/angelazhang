@@ -18,7 +18,7 @@ export default function LandingPage() {
             </h1>
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-cyan-600 via-teal-500 to-emerald-300" />
             <div className="my-2 text-center animate-fade-in">
-                <div className="flex text-white text-xl justify-center pt-[7vh] font-thin text-sm"> 
+                <div className="flex text-white text-xl justify-center pt-[5vh] font-thin text-sm"> 
                     <div className="text-center space-y-1">
                         <p>CS @ UCLA</p>
                     </div>
